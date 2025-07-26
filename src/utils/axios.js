@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: 'https://server-gqgt.onrender.com', // ✅ uses env variable
+  baseURL: 'https://server-gqgt.onrender.com/api', // ✅ uses env variable
   withCredentials: true,
 });
 
