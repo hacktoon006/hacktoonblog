@@ -9,7 +9,7 @@ export default function Blog() {
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        const res = await axios.get(`/blogs`);
+        const res = await axios.get(`https://server-gqgt.onrender.com/api/blogs`);
         setBlogs(res.data.blogs); // Adjust depending on your backend response
       } catch (err) {
         console.error("Error fetching blogs:", err);
