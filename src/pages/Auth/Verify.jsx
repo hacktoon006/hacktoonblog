@@ -12,7 +12,7 @@ function VerifyEmail() {
   useEffect(() => {
     const verify = async () => {
       try {
-        const res = await axios.get(`http://localhost:5000/api/verify/${token}`);
+        const res = await axios.get(`https://server-gqgt.onrender.com/api/verify/${token}`);
         setMessage(res.data.message);
         setStatus("success");
       } catch (err) {
