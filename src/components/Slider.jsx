@@ -5,19 +5,19 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 const slides = [
   {
     id: 1,
-    image: "https://i.pinimg.com/736x/52/78/b3/5278b3e81b719ecaca743fbc1c1e72a0.jpg",
+    image: "",
     title: "Modern UI",
     subtitle: "Clean and Responsive Design",
   },
   {
     id: 2,
-    image: "/assets/2.jpg",
+    image: "",
     title: "Fast Load",
     subtitle: "Optimized for performance",
   },
   {
     id: 3,
-    image: "/assets/3.jpg", // fixed path
+    image: "", // fixed path
     title: "Professional Look",
     subtitle: "Make your brand stand out",
   },
